@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.speaker {
+    display: flex;
+    justify-content: end;
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+
+main {
+    flex-grow: 1;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+
+}
+
+.content {
+    height: 250px;
+    width: 270px;
+    margin-top: 1rem;
+    
+
+}
+
+img {
+    padding: 2rem;
+
+}
+
+.profilo {
+    display: block;
+    
+    position: relative;
+}
+
+.muto {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    bottom: 0;
+    width: 100%;
+    left: 0%;
+    padding: 2rem 0rem;
+}
+
+
+.discount {
+    position: absolute;
+
+}
+
+footer {
+    background-color: black;
+}
