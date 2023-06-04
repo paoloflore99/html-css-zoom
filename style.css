@@ -29,10 +29,11 @@ main {
 
 .content {
     height: 250px;
-    width: 270px;
+    width: 200px;
+    max-width: 200px;
     margin-top: 1rem;
-    
-
+    margin-right: 2rem;
+    margin-left: 2rem;
 }
 
 img {
@@ -41,24 +42,21 @@ img {
 }
 
 .profilo {
-    display: block;
-    
+
     position: relative;
+
+
 }
 
 .muto {
     position: absolute;
+    top: 72%;
+    left: 16%;
+    bottom: 100%;
+    right: 0%;
     color: rgb(255, 255, 255);
-    bottom: 0;
     width: 100%;
-    left: 0%;
     padding: 2rem 0rem;
-}
-
-
-.discount {
-    position: absolute;
-
 }
 
 footer {
